@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+            <form id="meu-formulario">
+                <input type="number" id="valorA" name="valorA" required placeholder="Campo valor A" />
+                <input type="number" id="valorB" name="valorB" required placeholder="Campo valor B" />
+                <button id="btn-enviar" type="submit">Enviar</button>
+                <p class="error-message">
+                    O valor no campo A é maior que o valor no campo B, portanto está inválido
+                </p>
+            </form>
+            <p class="sucess-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
