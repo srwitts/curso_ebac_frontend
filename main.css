@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #008B74;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #00C2A8;
+}
+
+.campoformulario {
+    margin-left: 60px;
+    margin-bottom: 16px;
+}
+
+.campoformulario label {
+    margin-bottom: 1px;
+    font-weight: bold;
+    display: block;
+}
+
+.campoformulario input {
+    width: 80%;
+    display: block;
+    padding: 8px;
+}
+
+form h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+form {
+    padding: 20px 20px 20px;
+    margin: 70px auto;
+    max-width: 560px;
+    width: 100%;
+    background-color: #dddddd;
+    color: #1d1d1d;
+    border-radius: 8px;
+}
+
+form button {
+    max-width: 120px;
+    margin: 20px auto;
+}
